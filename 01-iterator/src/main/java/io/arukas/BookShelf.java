@@ -5,6 +5,7 @@ package io.arukas;
  */
 public class BookShelf implements Aggregate {
 
+    // TODO: 可以用List试试
     // 书的集合
     private Book[] books;
 

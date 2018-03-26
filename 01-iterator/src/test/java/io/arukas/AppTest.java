@@ -10,6 +10,7 @@ public class AppTest {
     @Test
     public void run() {
 
+        // 注意这里是数组实现
         BookShelf bookShelf = new BookShelf(4);
         bookShelf.addBook(new Book("图解设计模式"));
         bookShelf.addBook(new Book("Head-First设计模式"));
@@ -18,6 +19,9 @@ public class AppTest {
 
         //System.out.println(bookShelf.getLength());
         Iterator iterator = bookShelf.iterator();
+
+        // 引入Iterator后可以将遍历和实现分离
+        // 没有调用BookShelf的方法
 
         while (iterator.hasNext()) {
             Book book = (Book) iterator.next();

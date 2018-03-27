@@ -9,7 +9,7 @@ public class Directory extends Entry {
     private String name;
 
     // 文件夹中目录条目的集合
-    private ArrayList directory = new ArrayList<>();
+    private ArrayList<Entry> directory = new ArrayList<>();
 
     public Directory(String name) {
         this.name = name;
@@ -40,6 +40,10 @@ public class Directory extends Entry {
     public Entry add(Entry entry) {
         directory.add(entry);
         return this;
+    }
+
+    public void remove(Entry entry) {
+        directory.remove(entry);
     }
 
     @Override

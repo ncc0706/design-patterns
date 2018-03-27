@@ -40,9 +40,15 @@ public class AppTest {
         yuki.add(new File("100.html", 200));
         yuki.add(new File("Composite.jar", 300));
 
+        Entry t = new File("测试", 200);
+
+        yuki.add(t);
+
         hanako.add(new File("kotlin", 100));
         tomura.add(new File("okhttp", 200));
         tomura.add(new File("httpclient", 300));
+
+        yuki.remove(t);
         rootdir.printList();
     }
 

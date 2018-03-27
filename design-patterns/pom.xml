@@ -9,6 +9,7 @@
     <modules>
         <module>../01-iterator</module>
         <module>../02-adapter</module>
+        <module>../03-composite</module>
     </modules>
 
     <name>Maven</name>

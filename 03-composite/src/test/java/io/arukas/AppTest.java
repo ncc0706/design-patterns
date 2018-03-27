@@ -52,4 +52,23 @@ public class AppTest {
         rootdir.printList();
     }
 
+    @Test
+    public void fullName(){
+        Directory rootdir = new Directory("root");
+        Directory usrdir = new Directory("usr");
+        rootdir.add(usrdir);
+
+        Directory yuki = new Directory("yuki");
+        usrdir.add(yuki);
+
+        File file = new File("composite.java", 200);
+        yuki.add(file);
+
+        rootdir.printList();
+        System.out.println();
+
+        System.out.println("yuki=" + yuki.getFullName());
+        System.out.println("file=" + file.getFullName());
+    }
+
 }

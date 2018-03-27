@@ -2,6 +2,7 @@ package io.arukas.delegate;
 
 public class PrintBannerDelegate extends Print{
 
+    // 持有被委托的实例
     private Banner banner;
 
     public PrintBannerDelegate(String value){

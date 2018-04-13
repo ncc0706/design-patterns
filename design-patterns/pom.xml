@@ -11,6 +11,7 @@
         <module>../02-adapter</module>
         <module>../03-composite</module>
         <module>../04-template</module>
+        <module>../05-factory-method</module>
     </modules>
 
     <name>Maven</name>

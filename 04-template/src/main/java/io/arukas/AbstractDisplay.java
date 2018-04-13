@@ -11,9 +11,9 @@ public abstract class AbstractDisplay {
     /**
      * 模板方法
      */
-    public final void display() {
+    public final void display(int num) {
         open();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < num; i++) {
             print();
         }
         close();

@@ -7,7 +7,7 @@
     # 第一个远程仓库
     $ git remote add origin git@git.coding.net:ncc/design-patterns.git
 
-    # 第一个远程仓库
+    # 第二个远程仓库
     $ git remote set-url --add origin git@github.com:ncc0706/design-patterns.git
 
     # 推送代码

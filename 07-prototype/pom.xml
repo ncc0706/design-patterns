@@ -10,12 +10,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>06-singleton</artifactId>
+    <artifactId>07-prototype</artifactId>
 
-    <name>06-singleton</name>
+    <name>07-prototype</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-
 
     <dependencies>
         <dependency>
@@ -24,6 +23,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 
 </project>

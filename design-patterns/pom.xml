@@ -13,6 +13,7 @@
         <module>../04-template</module>
         <module>../05-factory-method</module>
         <module>../06-singleton</module>
+        <module>../07-prototype</module>
     </modules>
 
     <name>Maven</name>

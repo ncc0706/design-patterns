@@ -12,6 +12,7 @@
         <module>../03-composite</module>
         <module>../04-template</module>
         <module>../05-factory-method</module>
+        <module>../06-singleton</module>
     </modules>
 
     <name>Maven</name>

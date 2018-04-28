@@ -14,6 +14,7 @@
         <module>../05-factory-method</module>
         <module>../06-singleton</module>
         <module>../07-prototype</module>
+        <module>../08-strategy</module>
     </modules>
 
     <name>Maven</name>

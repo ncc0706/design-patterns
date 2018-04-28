@@ -2,7 +2,7 @@ package io.arukas.demo2;
 
 public abstract class Duck {
 
-    public Flyable flyable;
+    protected Flyable flyable;
 
     protected Speakable speakable;
 
